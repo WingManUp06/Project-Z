@@ -1,0 +1,8 @@
+video{
+    border-radius:25px;
+    margin-top: 25px;
+    transition: transform 75ms ease-out 25ms;
+}
+video:hover{
+    transform: translateY(-10px);
+}
