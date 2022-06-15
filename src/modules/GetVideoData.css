@@ -1,8 +1,8 @@
 video{
     border-radius:25px;
-    margin-top: 25px;
+    margin-top: 50px;
     transition: transform 75ms ease-out 25ms;
 }
 video:hover{
-    transform: translateY(-10px);
+    transform: translateY(-10px) scale(110%);
 }

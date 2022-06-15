@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import VideoPlayer from './modules/VideoPlayer'
+import ChatFeed from './modules/ChatFeed'
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <VideoPlayer/>
+      <ChatFeed/>
     </div>
   )
 }
